@@ -1,0 +1,165 @@
+$font-color: #446381;
+
+%buttonstil {
+background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+border-radius: 25px;
+width: 180px;
+height: 50px;
+}
+
+%font-style {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 24px;
+    color: #446381;
+}
+
+%font-style2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 75px;
+    color: #EB8382;
+}
+
+%font-style3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #826F8C;
+    width: 518px;
+    height: 116px;
+}
+
+
+
+
+
+
+
+
+
+.header {
+    background: #FFE6D7;
+    background-image: url("/scss/bg.svg");
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 120px;
+   
+    &__button {
+        @extend %buttonstil;
+        margin-top: 23px;
+    }
+}
+
+.button {
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.header__buttonburger {
+    display: none;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu {
+    padding-top: 40px;
+    padding-left: 228px;
+
+    &__list {
+        display: flex;
+        column-gap: 52px;   
+    }
+
+
+    &__item {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &__link {
+        color: $font-color;
+    }
+
+    
+}
+
+.header {
+
+    // .header__flex
+
+    &__flex {
+        display: flex;
+    }
+
+    // .header__Description
+
+    &__Description {
+        padding-top: 139px;
+    }
+
+    // .header__text1
+
+    &__text1 {
+      @extend %font-style;
+      padding-bottom: 23px;
+    }
+
+    // .header__text2
+
+    &__text2 {
+      @extend %font-style2;
+        // .header__text2_stil
+
+        &_stil {
+            color: rgba(68, 99, 129, 1);
+        }
+    }
+
+    // .header__text3
+
+    &__text3 {
+        @extend %font-style3;
+    } 
+
+    &__right {
+        padding-top: 54px;
+    }
+}
+
+
+
+
+
+
+
+
+
+  
+
+  

@@ -1,0 +1,32 @@
+.footer {
+    
+    background: #f2e0d4;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    // .footer__flex
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .footer__logo
+
+    &__logo {
+    }
+
+    // .footer__text
+
+    &__text {
+        color: $font-color;
+        padding-top: 23px;
+        padding-left: 14px;
+    }
+
+    // .footer__contacts
+
+    &__contacts {
+    }
+}
+.container {
+}
